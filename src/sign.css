@@ -1,0 +1,227 @@
+/* .outerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height:100vh;
+    background-color: aqua;
+    padding: 3px;
+}
+.innerbox{
+    padding: 30px;
+    margin: 8px;
+    border: 3px solid black;
+    background-color: white;
+    background-image: './images/mustang.jpg';
+}
+
+*/
+.homeinnerbox{
+  
+
+    padding: 10px;
+    margin: 70px;
+    border: 3px solid black;
+    background-color: rgb(161, 156, 156);
+    border-radius: 12px;
+    transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
+    box-shadow: 0px 13px 10px -7px #96bec8;
+    text-decoration: none;   
+}
+
+.homeinnerbox:hover{
+  
+  box-shadow: 0px 8px 8px 8px #a6dbe9;
+  transform: scale(1.05,1.05);
+}
+
+.home{
+    display: flex;
+    margin: 5px;
+    padding: 2px;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+} 
+/* Styles for the main login container */
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #404445;
+    
+  }
+
+.outerbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url('images/mustang.jpg') center/cover no-repeat ;
+
+  }
+  
+/* Styles for the login form container */
+/* Styles for the inner container */
+.innerbox {
+    padding: 30px;
+    margin: 8px;
+    border: 3px solid black;
+    background-color: rgba(255,255, 255, 0.785);
+  }
+  
+  /* Styles for the form title */
+  .innerbox h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for form input fields */
+  .innerbox input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styles for error messages */
+  .text-danger {
+    color: #ff6b6b;
+    margin-top: 5px;
+  }
+  
+  /* Styles for the login button */
+  .innerbox button {
+    width: 100%;
+    background: #25a4b3;
+    color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .innerbox button:hover {
+    background: #164ba8;
+  }
+  
+  /* Styles for the "Create Account" link */
+  .innerbox .btn-default {
+    color: #333;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+  }
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .innerbox {
+    width: 80%;
+  }
+}
+
+/* Styles for the car auction container */
+.car-auction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Styles for the car image */
+  .car-image {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the timer and bid amount */
+  .timer-and-bid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the "Time Left" and "Current Bid" */
+  .timer {
+    color: #ee2a2a;
+  }
+  
+ 
+  
+  /* Styles for the car information */
+  .car-info {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the "Place Bid" button */
+  .place-bid-button {
+    background: #25a4b3;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .place-bid-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .place-bid-button:hover {
+    background: #4d4fd9;
+  }
+  /*.car-block{
+    transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
+    box-shadow: 0px 13px 10px -7px #96bec8;
+  }
+  .car-block:hover{
+    /* width: 350px;
+    height: 350px; 
+    border: 2px solid #295fa6;
+    padding: 5px 4px; 
+    background: #ffffff;
+    box-shadow: 0px 30px 18px -8px #96bec8;
+    transform: scale(1.05,1.05);
+  }*/
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .email{
+    position: relative;
+    left: 650px;
+    
+  }
+  
+  .link-no-underline {
+    text-decoration: none;
+  }
+  
